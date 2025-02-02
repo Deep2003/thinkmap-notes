@@ -1,20 +1,22 @@
-
 const HowItWorks = () => {
   const steps = [
     {
       number: "01",
       title: "Install & Browse",
-      description: "Add our extension to your browser and continue browsing as usual"
+      description: "Add our extension to your browser and continue browsing as usual",
+      imgSRC: "/public/browser.png"
     },
     {
       number: "02",
       title: "Copy & Capture",
-      description: "Copy interesting text from any webpage - we'll automatically save it"
+      description: "Copy interesting text from any webpage - we'll automatically save it",
+      imgSRC: "/public/copy.png"
     },
     {
       number: "03",
       title: "Organize & Connect",
-      description: "Watch as your research transforms into an organized, visual knowledge map"
+      description: "Watch as your research transforms into an organized, visual knowledge map",
+      imgSRC: "/public/"
     }
   ];
 
@@ -28,6 +30,11 @@ const HowItWorks = () => {
               <div className="text-4xl font-bold text-primary mb-4">{step.number}</div>
               <h3 className="text-xl font-semibold mb-2">{step.title}</h3>
               <p className="text-['#FFFFFF']">{step.description}</p>
+              <img
+                src={step.imgSRC}
+                alt="Description of image"
+                className="w-1024 h-auto mx-auto mt-4"
+              />
             </div>
           ))}
         </div>
