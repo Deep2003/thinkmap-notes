@@ -4,25 +4,25 @@
 
 @layer base {
   :root {
-    --background: 0 0% 100%;
-    --foreground: 222.2 84% 4.9%;
-    --card: 0 0% 100%;
-    --card-foreground: 222.2 84% 4.9%;
-    --popover: 0 0% 100%;
-    --popover-foreground: 222.2 84% 4.9%;
-    --primary: 262 60% 26%;
-    --primary-foreground: 210 40% 98%;
-    --secondary: 210 40% 96.1%;
-    --secondary-foreground: 222.2 47.4% 11.2%;
-    --muted: 210 40% 96.1%;
-    --muted-foreground: 215.4 16.3% 46.9%;
-    --accent: 262 60% 26%;
-    --accent-foreground: 222.2 47.4% 11.2%;
+    --background: 112 47% 27%;
+    --foreground: 65 27% 66%;
+    --card: 112 47% 27%;
+    --card-foreground: 65 27% 66%;
+    --popover: 112 47% 27%;
+    --popover-foreground: 65 27% 66%;
+    --primary: 67 64% 49%;
+    --primary-foreground: 65 27% 66%;
+    --secondary: 65 32% 19%;
+    --secondary-foreground: 65 27% 66%;
+    --muted: 65 32% 19%;
+    --muted-foreground: 65 27% 66%;
+    --accent: 161 55% 45%;
+    --accent-foreground: 65 27% 66%;
     --destructive: 0 84.2% 60.2%;
-    --destructive-foreground: 210 40% 98%;
-    --border: 214.3 31.8% 91.4%;
-    --input: 214.3 31.8% 91.4%;
-    --ring: 262 60% 26%;
+    --destructive-foreground: 65 27% 66%;
+    --border: 65 32% 19%;
+    --input: 65 32% 19%;
+    --ring: 67 64% 49%;
     --radius: 0.5rem;
   }
 }
@@ -37,7 +37,7 @@
 }
 
 .gradient-bg {
-  background: linear-gradient(135deg, #2D1B69 0%, #8C65F7 100%);
+  background: linear-gradient(135deg, #34602b 0%, #b6c436 100%);
 }
 
 .feature-card {
